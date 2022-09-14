@@ -8,7 +8,6 @@ class Node:
         __next_node (Node): next node in the linked list
     """
 
-
     def __init__(self, data, next_node=None):
         """Initializes the node
         Args:
@@ -115,4 +114,3 @@ class SinglyLinkedList:
                 string += "\n"
             tmp = tmp.next_node
         return string
-
