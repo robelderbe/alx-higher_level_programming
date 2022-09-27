@@ -3,10 +3,11 @@
 Creates a class that inherits from int.
 """
 
+
 class MyInt(int):
     """Class inheriting from int,
     But reverses the behavior of != and ==.
-
+    """
 
     def __eq__(self, other):
         """Equality becomes inequality."""
