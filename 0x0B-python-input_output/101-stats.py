@@ -17,10 +17,6 @@ def print_stats(size, status_codes):
     print("File size: {}".format(size))
     for key in sorted(status_codes):
         print("{}: {}".format(key, status_codes[key]))
-    """
-    print("File size: {}".format(size))
-    for key in sorted(status_codes):
-        print("{}: {}".format(key, status_codes[key]))
 
 
 if __name__ == "__main__":
@@ -55,7 +51,7 @@ if __name__ == "__main__":
             except IndexError:
                 pass
 
-            print_stats(size, status_codes)
+         print_stats(size, status_codes)
 
 except KeyboardInterrupt:
     print_stats(size, status_codes)
